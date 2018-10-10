@@ -1,4 +1,4 @@
 var lastname = document.getElementById("lastname");
-lastname.addEventListener("focusout", function( event ) {
+lastname.addEventListener("blur", function( event ) {
   alert('Merci de votre participation');
 }, true);
